@@ -14,9 +14,9 @@
 
     --main-color: #ffb43a;
     --hover-color: hsl(37, 94%, 57%);
-    --body-color: #1e1e2a;
-    --container-color: #2d2e37;
-    --text-color: #fcfeff;
+    --body-color: #250608;
+    --container-color: #4f0000;
+    --text-color: #ffffff;
 }
 
 html::-webkit-scrollbar {
@@ -60,7 +60,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     background: var(--body-color);
     z-index: 100;
 }
@@ -71,6 +71,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px 0;
+    margin-left: 50px;
 }
 
 /* logo */
